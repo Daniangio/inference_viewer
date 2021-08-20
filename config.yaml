@@ -1,0 +1,9 @@
+---
+input_folder: 'input'
+uploaded_folder: 'uploaded'
+output_folder: 'output'
+model_weights_folder: 'model_weights'
+kafka_main_topic: 'main'
+device: 'cpu'
+segmentator_model_version: '1-0'
+model_data_loader_workers: 2
