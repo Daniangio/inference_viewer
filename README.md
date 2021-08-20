@@ -16,6 +16,8 @@
 * Create a virtual environment. Run `virtualenv --python=/usr/bin/python<version> <path/to/new/virtualenv>`.
 * Activate virtual environment. Run `source <path/to/new/virtualenv>/bin/activate`.
 * Install required packages. Run `pip install -r requirements.txt`.
+* Configure parameters in the config.yaml file.
+* Create a directory for the weights of the model and put there the trained model weights.
 * Start docker daemon.
 * Run `docker-compose up -d`.
 * Check if kafka container does not fail (usually it fails the first time you launch it, don't exactly know why,
